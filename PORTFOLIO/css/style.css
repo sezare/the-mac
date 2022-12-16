@@ -1,0 +1,243 @@
+/* Theme: Personal Portfolio
+    Version: 1.0;
+    Author: Sezare Miguel
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.col-2{
+    width: 49%;
+    float: left;
+}
+
+.col-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.col-4{
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
+
+.col-5{
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+}
+
+.image-responsive{
+    width: 100%;
+}
+
+.btn{
+
+    border: 1px solid blue ;
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+
+}
+
+
+
+.btn:hover{
+    background-color: white;
+    color: blue;
+
+}
+
+
+
+/* Css or navbar -menu */
+.logo{
+    width: 20%;
+    float: left;
+    font-weight: bold;
+}
+
+.b1 a{
+    text-decoration: none;
+}
+ 
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.menu ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* CSS for about Section */
+.about{
+    margin-bottom: 5%;
+}
+
+.about-title{
+    margin-bottom: 3%;
+}
+
+.about-subtitle{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 8%;
+}
+
+.about-description{
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+
+/* css for project seection */
+.projects{
+    margin-bottom: 5%;
+}
+.projects a{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.projects a:hover{
+    color: lightblue;
+}
+.project-box{
+    position: relative;
+}
+
+.project-title{
+    position: absolute;
+    top: 76%;
+    padding: 5%;
+}
+
+/* css for skills */
+.skills{
+    margin-bottom: 5%;
+}
+.skill-box{
+    margin: 3%;
+}
+
+.skill-title{
+    font-size: 1.3em;
+    line-height: 45px;
+}
+
+.skill-meter{
+    border: 1px solid blue;
+    width: 90%;
+    float: right;
+}
+
+/* css for Blogs */
+
+.blog-title{
+    padding: 5% 2%;
+}
+
+/* css for Footer */
+footer{
+    margin-top: 5%;
+}
+footer{
+    padding-bottom: 5%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    display: inline;
+    padding: 2%;
+}
+
+.round{
+    border-radius: 50%;
+   
+   
+
+}
+/* css for Mobile devices */
+@media only screen  and (max-width:768px) {
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .l1{
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .col-2, .col-3, .col-4, .col-5{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .project-title{
+        position: absolute;
+        top: 80%;
+        padding: 3%;
+    }
+
+    .skill-meter{
+        width: 100%;
+    }
+
+}
